@@ -15,7 +15,7 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-(define-library (rapid box)
+(define-library (rapid boxes)
   (export box box? unbox set-box!)
   (import (scheme base))
-  (include "box.scm"))
+  (include "boxes.scm"))
