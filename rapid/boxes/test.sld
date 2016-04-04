@@ -1,10 +1,11 @@
-(define-library (rapid box test)
+(define-library (rapid boxes test)
   (export run-tests)
   (import (scheme base)
 	  (rapid test)
-	  (rapid box))
+	  (rapid boxes))
   (begin
     (define (run-tests)
+    
       (test-begin "Boxes")
       
       (test-assert "Boxing a value yields a box"

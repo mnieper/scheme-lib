@@ -79,5 +79,5 @@
 	  (scheme read)
 	  (scheme repl)
 	  (scheme write)
-	  (rapid box))
+	  (rapid boxes))
   (include "test.scm"))
