@@ -3,16 +3,18 @@ This repository contains a useful collection of Scheme libraries written in R7RS
 Run Tests
 ---------
 
-Assuming you have Chibi Scheme installed, you can run the tests by issuing the command
+Assuming you have Chibi Scheme installed, you can run the tests by issuing
+the command
 
   chibi-scheme tests.scm
 
-in the main directory. The test suite should work as well with any other R7RS-compliant implementation of the Scheme
-programming language although the exact command-line syntax may differ.
+in the main directory. The test suite should work as well with any other
+R7RS-compliant implementation of the Scheme programming language although
+the exact command-line syntax may differ.
 
 Libraries
 ---------
 
   - (rapid box): A SRFI-111 compatible implementation of mutable cells
-  - (rapid test): A SRFI-64 compatible implementation of a Scheme testing framework based on the original implementation by
-    Per Bothner
+  - (rapid test): A SRFI-64 compatible implementation of a Scheme testing
+    framework based on the original implementation by Per Bothner
