@@ -15,6 +15,6 @@ the exact command-line syntax may differ.
 Libraries
 ---------
 
-  - (rapid box): A SRFI-111 compatible implementation of mutable cells
+  - (rapid boxes): A SRFI-111 compatible implementation of mutable cells
   - (rapid test): A SRFI-64 compatible implementation of a Scheme testing
     framework based on the original implementation by Per Bothner
