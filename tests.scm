@@ -2,6 +2,7 @@
 	(rapid test)
 	(rename (rapid test test) (run-tests run-rapid-test-tests))
 	(rename (rapid boxes test) (run-tests run-rapid-boxes-tests))
+        (rename (rapid comparators test) (run-tests run-rapid-comparators-tests))
 	(rename (rapid lists test) (run-tests run-rapid-lists-tests))
 	(rename (rapid generators test) (run-tests run-rapid-generators-tests)))
 
@@ -9,6 +10,7 @@
 
 (run-rapid-test-tests)
 (run-rapid-boxes-tests)
+(run-rapid-generators-tests)
 (run-rapid-lists-tests)
 (run-rapid-generators-tests)
 
