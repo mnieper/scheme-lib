@@ -21,6 +21,8 @@ Libraries
 
   - (rapid list): A rudiment of a SRFI-1 compatible implementation of list procedures
 
+  - (rapid tables): Hash table-like data structures
+
   - (rapid generators): A rudiment of a SRFI-121 compatible implementation of generators
 
   - (rapid test): A SRFI-64 compatible implementation of a Scheme testing
