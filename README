@@ -16,5 +16,7 @@ Libraries
 ---------
 
   - (rapid boxes): A SRFI-111 compatible implementation of mutable cells
+  - (rapid list): A rudiment of a SRFI-1 compatible implementation of list procedures
+  - (rapid generators): A rudiment of a SRFI-121 compatible implementation of generators
   - (rapid test): A SRFI-64 compatible implementation of a Scheme testing
     framework based on the original implementation by Per Bothner
