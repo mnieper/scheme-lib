@@ -27,3 +27,5 @@ Libraries
 
   - (rapid test): A SRFI-64 compatible implementation of a Scheme testing
     framework based on the original implementation by Per Bothner
+
+  - (rapid paths): Basic path manipulations

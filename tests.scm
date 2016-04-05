@@ -5,7 +5,8 @@
         (rename (rapid comparators test) (run-tests run-rapid-comparators-tests))
 	(rename (rapid lists test) (run-tests run-rapid-lists-tests))
         (rename (rapid tables test) (run-tests run-rapid-tables-tests))
-	(rename (rapid generators test) (run-tests run-rapid-generators-tests)))
+	(rename (rapid generators test) (run-tests run-rapid-generators-tests))
+	(rename (rapid paths test) (run-tests run-rapid-paths-tests)))
 
 (test-begin "Rapid Libraries")
 
@@ -15,5 +16,6 @@
 (run-rapid-lists-tests)
 (run-rapid-tables-tests)
 (run-rapid-generators-tests)
+(run-rapid-paths-tests)
 
 (test-end "Rapid Libraries")
