@@ -21,6 +21,8 @@ Libraries
 
   - (rapid comparators): A rudiment of a SRFI-128 compatible implementation of comparators
 
+  - (rapid format): A SRFI-2 compatible basic string formatting library
+
   - (rapid list): A rudiment of a SRFI-1 compatible implementation of list procedures
 
   - (rapid tables): Hash table-like data structures

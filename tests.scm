@@ -8,6 +8,7 @@
         (rename (rapid tables test) (run-tests run-rapid-tables-tests))
         (rename (rapid maps test) (run-tests run-rapid-maps-tests))
 	(rename (rapid generators test) (run-tests run-rapid-generators-tests))
+        (rename (rapid format test) (run-tests run-rapid-format-tests))
 	(rename (rapid paths test) (run-tests run-rapid-paths-tests)))
 
 (test-begin "Rapid Libraries")
@@ -20,6 +21,7 @@
 (run-rapid-tables-tests)
 (run-rapid-maps-tests)
 (run-rapid-generators-tests)
+(run-rapid-format-tests)
 (run-rapid-paths-tests)
 
 (test-end "Rapid Libraries")
