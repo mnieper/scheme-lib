@@ -15,6 +15,8 @@ the exact command-line syntax may differ.
 Libraries
 ---------
 
+  - (rapid and-let): A SRFI-2 implementation
+
   - (rapid boxes): A SRFI-111 compatible implementation of mutable cells
 
   - (rapid comparators): A rudiment of a SRFI-128 compatible implementation of comparators
@@ -22,6 +24,8 @@ Libraries
   - (rapid list): A rudiment of a SRFI-1 compatible implementation of list procedures
 
   - (rapid tables): Hash table-like data structures
+
+  - (rapid maps): Simple immutable finite maps
 
   - (rapid generators): A rudiment of a SRFI-121 compatible implementation of generators
 
