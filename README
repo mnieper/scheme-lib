@@ -31,6 +31,8 @@ Libraries
 
   - (rapid generators): A rudiment of a SRFI-121 compatible implementation of generators
 
+  - (rapid sets): A rudiment of a SRFI-113 compatible implementation of sets
+
   - (rapid test): A SRFI-64 compatible implementation of a Scheme testing
     framework based on the original implementation by Per Bothner
 
